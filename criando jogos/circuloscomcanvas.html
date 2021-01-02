@@ -6,6 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <canvas id="meu_canvas" width="300" height="300"></canvas>
+    <script>
+        //canvas e contexto
+        var canvas = document.getElementById('meu_canvas')
+        var context = canvas.getContext('2d');
+
+        // cores e expessura da linha
+        context.fillStyle = 'gray';
+        context.strokeStyle = 'black';
+        context.lineWidth = 2
+
+    </script>
 </body>
 </html>
